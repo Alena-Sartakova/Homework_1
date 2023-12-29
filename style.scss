@@ -69,10 +69,11 @@ body {
 
 .cart {
     background: #000915;
-    height: 556px;
     padding-top: 124px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
 }
+
+@import "mobile";

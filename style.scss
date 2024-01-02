@@ -65,6 +65,10 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-top: 44px;
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor:url(img/clarity_cursor-hand-line.svg), pointer;
+}
 }
 
 .cart {
@@ -74,6 +78,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
+    &__game_1 {
+        cursor: url(/img/clarity_cursor-hand-line.svg), pointer;
+    }
 }
 
 @import "mobile";

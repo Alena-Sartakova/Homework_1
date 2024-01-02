@@ -107,6 +107,7 @@ body {
     margin-top: 32px;
   }
   .top {
+    height: 735px;
     display: flex;
     flex-direction: column;
     align-items: center;

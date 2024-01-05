@@ -1,0 +1,52 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 100%;
+
+        &__title {
+            color: #FFF;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            width: 100%;
+        }
+
+        &__title_fat {
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+        }
+    }
+
+    .button {
+        margin-top: 32px;
+    }
+
+    .top {
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(img/head_mobile.jpg);
+    }
+
+    .cart {
+        &__game_1 {
+            width: 100%;
+        }
+    }
+}

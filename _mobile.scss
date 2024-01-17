@@ -37,6 +37,7 @@
     }
 
     .top {
+        height: 735px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -47,5 +48,19 @@
         &__game_1 {
             width: 100%;
         }
+    }
+
+    .game_1__seasons_desc {
+        display: grid;
+        justify-items: center;
+    }
+
+    .gameName {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .game_1_img {
+        width: 100%;
     }
 }

@@ -1,4 +1,4 @@
-//Задание 1
+/* //Задание 1
 
 function numMin(a, b) {
     return a < b ? a : b;
@@ -81,7 +81,7 @@ function getArea() {
 
 function getPerimeter() {
     return 2 * Math.PI * this.radius;
-}
+} */
 
 //Задание 8
 

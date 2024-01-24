@@ -41,6 +41,7 @@ body {
   font-weight: 300;
   line-height: 32px;
   padding-top: 32px;
+  padding-bottom: 44px;
   width: 481px;
 }
 .header__title_fat {
@@ -61,7 +62,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-top: 44px;
+
   cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 
@@ -77,27 +78,6 @@ body {
   cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 
-.game_1 {
-  background: #000915;
-}
-.game_1__seasons {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 178px;
-}
-.game_1__seasons_img {
-  padding-top: 64px;
-}
-
-.gameName {
-  color: #FFF;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 
 @media (max-width: 767px) {
   .center {

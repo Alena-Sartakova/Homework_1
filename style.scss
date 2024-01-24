@@ -65,16 +65,17 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-top: 44px;
 
 
 
-.cart {
-    background: #000915;
-    padding-top: 124px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 32px;
+    .cart {
+        background: #000915;
+        padding-top: 124px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
 
     }
 }

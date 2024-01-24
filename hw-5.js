@@ -42,7 +42,7 @@ function userAge() {
 //Задание 5
 
 function plentyNum(a, b) {
-    if (isNaN(a || isNaN(b))) {
+    if (isNaN((a || isNaN(b))) {
         return "Одно или оба значения не являются числом"
     } else {
         return a * b
@@ -85,18 +85,18 @@ function getPerimeter() {
 
 //Задание 8
 
-function getSeasons(month) {
+function getSeasons() {
+    const month = prompt("Введите число");
     if (month >= 3 && month <= 5) {
-        return "Весна";
+        alert("Весна");
     } else if (month >= 6 && month <= 8) {
-        return "Лето";
+        alert("Лето");
     } else if (month >= 9 && month <= 11) {
-        return "Осень";
+        alert("Осень");
     } else if (month == 12 || month == 1 || month == 2) {
-        return "Зима";
+        alert("Зима");
     } else {
-        return "Неизвестное число";
+        alert("Неизвестное число");
     }
 }
 
-console.log(getSeasons(prompt("Введите число")));

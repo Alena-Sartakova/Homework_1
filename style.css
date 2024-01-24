@@ -62,11 +62,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-
-  cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+  margin-top: 44px;
 }
-
-.cart {
+.button .cart {
   background: #000915;
   padding-top: 124px;
   display: flex;
@@ -74,10 +72,28 @@ body {
   flex-wrap: wrap;
   gap: 32px;
 }
-.cart__game_1 {
-  cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+
+.game_1 {
+  background: #000915;
+}
+.game_1__seasons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 178px;
+}
+.game_1__seasons_img {
+  padding-top: 64px;
 }
 
+.gameName {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 @media (max-width: 767px) {
   .center {

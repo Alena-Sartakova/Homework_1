@@ -63,14 +63,19 @@ body {
   font-weight: 400;
   line-height: normal;
   margin-top: 44px;
+  cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
-.button .cart {
+
+.cart {
   background: #000915;
   padding-top: 124px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 32px;
+}
+.cart__game_1 {
+  cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 
 .game_1 {

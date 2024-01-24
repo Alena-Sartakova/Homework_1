@@ -66,17 +66,19 @@ body {
     font-weight: 400;
     line-height: normal;
     margin-top: 44px;
+    cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+}
 
+.cart {
+    background: #000915;
+    padding-top: 124px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
 
-
-    .cart {
-        background: #000915;
-        padding-top: 124px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 32px;
-
+    &__game_1 {
+        cursor: url(img/clarity_cursor-hand-line.svg), pointer;
     }
 }
 

@@ -62,6 +62,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 44px;
   cursor: url(img/clarity_cursor-hand-line.svg), pointer;
 }
 
@@ -75,6 +76,28 @@ body {
 }
 .cart__game_1 {
   cursor: url(img/clarity_cursor-hand-line.svg), pointer;
+}
+
+.game_1 {
+  background: #000915;
+}
+.game_1__seasons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 178px;
+}
+.game_1__seasons_img {
+  padding-top: 64px;
+}
+
+.gameName {
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 @media (max-width: 767px) {
@@ -118,6 +141,17 @@ body {
     background-image: url(img/head_mobile.jpg);
   }
   .cart__game_1 {
+    width: 100%;
+  }
+  .game_1__seasons_desc {
+    display: grid;
+    justify-items: center;
+  }
+  .gameName {
+    text-align: center;
+    font-size: 32px;
+  }
+  .game_1_img {
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

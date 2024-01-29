@@ -91,6 +91,13 @@ body {
 .game_1__seasons_img {
   padding-top: 64px;
 }
+.game_1__randomFruits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 178px;
+}
 
 .gameName {
   color: #FFF;
@@ -153,5 +160,8 @@ body {
   }
   .game_1_img {
     width: 100%;
+  }
+  .game_1__randomFruits {
+    flex-direction: column-reverse;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-//Задание 1
+/* //Задание 1
 const people = [
     { name: 'Глеб', age: 29 },
     { name: 'Анна', age: 17 },
@@ -6,7 +6,7 @@ const people = [
     { name: 'Оксана', age: 47 }
 ];
 
-console.log(people.sort((a, b) => a.age - b.age));
+console.log(people.sort((a, b) => a.age - b.age)); */
 
 //Задание 2
 function isPositive(num) {
@@ -24,6 +24,7 @@ function filter(array, ruleFunc) {
             result.push(item);
         }
     }
+    return result;
 }
 
 console.log(filter([3, -4, 1, 9], isPositive));
@@ -37,7 +38,7 @@ const people = [
 
 console.log(filter(people, isMale));
 
-//Задание 3
+/* //Задание 3
 
 let counter = 0;
 const interval = setInterval(() => {
@@ -79,4 +80,4 @@ function sayHi(name) {
 
 // Код выше менять нельзя
 
-delayForSecond(() => sayHi(('Глеб')));
+delayForSecond(() => sayHi(('Глеб'))); */
